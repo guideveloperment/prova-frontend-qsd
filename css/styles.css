@@ -74,13 +74,16 @@ body {
     background-color: transparent;
     border: 1px solid #fff;
     transition: background-color .5s;
-    padding: 15px;
+    padding: 12px;
+
 }
 
 .btn-second {
     background-color: red;
     border: 1px solid white;
     transition: background-color .5s;
+    padding: 22px;
+    
 }
 
 .first-content {
