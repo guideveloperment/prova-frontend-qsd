@@ -41,9 +41,11 @@
                 <p class="description description-second">Ou use sua conta</p>
                 <form class="form">
 
-                    <label class="label-input" for="">
+                    
+                    <label class="label-input" for="email">
                         <i class="far fa-envelope icon-modify"></i>
                         <input type="email" placeholder="Email">
+                        
                     </label>
 
                     <label class="label-input" for="">
@@ -99,12 +101,15 @@
 
                     <label class="label-input" for="">
 
-                        <input type="cpf" placeholder="CPF">
+                        <input type="cpf" placeholder="CPF" required>
+                        <span class="msg-cpf  msg-error invalid-feedback" style="display: none;">CPF inválido</span>
+                        <span class="msg-cpf  msg-success valid-feedback" style="display: none;">ok</span>
                     </label>
 
+                    
                     <label class="label-input" for="">
 
-                        <input type="cep" placeholder="CEP">
+                        <input type="cep" placeholder="CEP" required>
                     </label>
 
                     <label class="label-input" for="">
